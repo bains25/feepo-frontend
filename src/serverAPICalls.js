@@ -1,4 +1,4 @@
-const server = process.env.SERVER_ADDRESS || 'http://localhost:8080';
+const server = process.env.REACT_APP_SERVER_ADDRESS || 'http://localhost:8080';
 
 /**
  * 
