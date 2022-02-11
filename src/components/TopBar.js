@@ -26,7 +26,7 @@ function TopBar(props) {
                 <Toolbar variant="dense" style={{ height: 65, width: '100vw' }}>
                     <Box display='flex' >
                         <Button variant="contained" sx={{ minWidth: 125 }}  onClick={ () => navigateTo('/artists') }>Artists</Button>
-                        <Button variant="contained" sx={{ ml: 1, minWidth: 125 }} onClick={ () => navigateTo('/dashboard') }>Dashboard</Button>
+                        <Button variant="contained" sx={{ ml: 1, minWidth: 125, display: { xs: 'none', sm: 'inline' } }} onClick={ () => navigateTo('/dashboard') }>Dashboard</Button>
                     </Box>
                     
                     <Box display="flex" flexGrow={1} justifyContent="flex-end" paddingRight="55px" ml={2}>
